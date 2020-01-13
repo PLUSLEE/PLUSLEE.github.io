@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="JavaFX Java," />
 
 
 
@@ -79,17 +79,20 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="description" content="1.SceneBuilder创建的文件在IDEA中运行时提示Location is requiredJavaFX的使用当使用SceneBuild进行UI界面搭建后，导入到IDEA中时，需要对fxml文件进行修改按照项目文件层级，添加如下语句： 1fx:controller&#x3D;&quot;sample.Controller&quot;  类似下图： 以此指代清楚fx.controller。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2020/01/13/hello-world/index.html">
+<meta property="og:title" content="JavaFX小白使用初期采坑合集">
+<meta property="og:url" content="http://yoursite.com/2020/01/13/JavaFX%E5%B0%8F%E7%99%BD%E4%BD%BF%E7%94%A8%E5%88%9D%E6%9C%9F%E9%87%87%E5%9D%91%E5%90%88%E9%9B%86/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="1.SceneBuilder创建的文件在IDEA中运行时提示Location is requiredJavaFX的使用当使用SceneBuild进行UI界面搭建后，导入到IDEA中时，需要对fxml文件进行修改按照项目文件层级，添加如下语句： 1fx:controller&#x3D;&quot;sample.Controller&quot;  类似下图： 以此指代清楚fx.controller。">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-01-13T08:36:33.869Z">
-<meta property="article:modified_time" content="2020-01-13T08:36:33.869Z">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/173881-82ace5ea5b8aa660.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="article:published_time" content="2020-01-13T13:32:09.000Z">
+<meta property="article:modified_time" content="2020-01-13T13:36:07.442Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="JavaFX Java">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/173881-82ace5ea5b8aa660.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
 
@@ -119,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2020/01/13/hello-world/"/>
+  <link rel="canonical" href="http://yoursite.com/2020/01/13/JavaFX小白使用初期采坑合集/"/>
 
 
 
 
 
-  <title>Hello World | Hexo</title>
+  <title>JavaFX小白使用初期采坑合集 | Hexo</title>
   
 
 
@@ -232,7 +235,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/13/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/13/JavaFX%E5%B0%8F%E7%99%BD%E4%BD%BF%E7%94%A8%E5%88%9D%E6%9C%9F%E9%87%87%E5%9D%91%E5%90%88%E9%9B%86/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -249,7 +252,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline">JavaFX小白使用初期采坑合集</h1>
         
 
         <div class="post-meta">
@@ -261,7 +264,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-01-13T16:36:33+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-01-13T21:32:09+08:00">
                 2020-01-13
               </time>
             
@@ -299,19 +302,11 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        <h3 id="1-SceneBuilder创建的文件在IDEA中运行时提示Location-is-required"><a href="#1-SceneBuilder创建的文件在IDEA中运行时提示Location-is-required" class="headerlink" title="1.SceneBuilder创建的文件在IDEA中运行时提示Location is required"></a>1.SceneBuilder创建的文件在IDEA中运行时提示Location is required</h3><p>JavaFX的使用当使用SceneBuild进行UI界面搭建后，导入到IDEA中时，需要对fxml文件进行修改<br>按照项目文件层级，添加如下语句：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fx:controller=<span class="string">"sample.Controller"</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p>类似下图：<br><img src="https://upload-images.jianshu.io/upload_images/173881-82ace5ea5b8aa660.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="fxml中fx:controller.png"></p>
+<p>以此指代清楚fx.controller。</p>
 
       
     </div>
@@ -327,6 +322,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/JavaFX-Java/" rel="tag"># JavaFX Java</a>
+          
+        </div>
+      
 
       
       
@@ -336,15 +337,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2020/01/13/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/01/13/JavaFX%E5%B0%8F%E7%99%BD%E4%BD%BF%E7%94%A8%E5%88%9D%E6%9C%9F%E9%87%87%E5%9D%91%E5%90%88%E9%9B%86/" rel="prev" title="JavaFX小白使用初期采坑合集">
-                JavaFX小白使用初期采坑合集 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -467,7 +468,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-SceneBuilder创建的文件在IDEA中运行时提示Location-is-required"><span class="nav-number">1.</span> <span class="nav-text">1.SceneBuilder创建的文件在IDEA中运行时提示Location is required</span></a></li></ol></div>
             
 
           </div>

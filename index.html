@@ -229,6 +229,130 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/13/JavaFX%E5%B0%8F%E7%99%BD%E4%BD%BF%E7%94%A8%E5%88%9D%E6%9C%9F%E9%87%87%E5%9D%91%E5%90%88%E9%9B%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/01/13/JavaFX%E5%B0%8F%E7%99%BD%E4%BD%BF%E7%94%A8%E5%88%9D%E6%9C%9F%E9%87%87%E5%9D%91%E5%90%88%E9%9B%86/" itemprop="url">JavaFX小白使用初期采坑合集</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-01-13T21:32:09+08:00">
+                2020-01-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="1-SceneBuilder创建的文件在IDEA中运行时提示Location-is-required"><a href="#1-SceneBuilder创建的文件在IDEA中运行时提示Location-is-required" class="headerlink" title="1.SceneBuilder创建的文件在IDEA中运行时提示Location is required"></a>1.SceneBuilder创建的文件在IDEA中运行时提示Location is required</h3><p>JavaFX的使用当使用SceneBuild进行UI界面搭建后，导入到IDEA中时，需要对fxml文件进行修改<br>按照项目文件层级，添加如下语句：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fx:controller=<span class="string">"sample.Controller"</span></span><br></pre></td></tr></table></figure>
+
+<p>类似下图：<br><img src="https://upload-images.jianshu.io/upload_images/173881-82ace5ea5b8aa660.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="fxml中fx:controller.png"></p>
+<p>以此指代清楚fx.controller。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/13/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -394,7 +518,7 @@
               
                 <a href="/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -402,6 +526,15 @@
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
             
 
           </nav>
