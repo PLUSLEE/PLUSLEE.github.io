@@ -113,7 +113,7 @@
 <meta property="og:image" content="https://i.loli.net/2020/01/15/iF5gXkPrCySBuRG.png">
 <meta property="og:image" content="https://i.loli.net/2020/01/15/mLAoZ1TFkUVuzYw.png">
 <meta property="article:published_time" content="2020-01-15T05:34:36.000Z">
-<meta property="article:modified_time" content="2020-01-15T06:05:33.924Z">
+<meta property="article:modified_time" content="2020-01-15T06:08:04.562Z">
 <meta property="article:author" content="PlusLee">
 <meta property="article:tag" content="JavaFX,Java">
 <meta name="twitter:card" content="summary">
@@ -339,7 +339,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-01-15T14:05:33+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2020-01-15T14:08:04+08:00">
                 2020-01-15
               </time>
             
@@ -444,7 +444,9 @@
 <li><p>添加jar包到Libraries；</p>
 </li>
 </ol>
-<h1 id="2-报错NullPoint"><a href="#2-报错NullPoint" class="headerlink" title="2. 报错NullPoint"></a>2. 报错NullPoint</h1><pre><code>原则1 ： 检查fxml文件中的控件是否和controller中的对象一一对应；</code></pre><h1 id="3-Dialog无法使用"><a href="#3-Dialog无法使用" class="headerlink" title="3. Dialog无法使用"></a>3. Dialog无法使用</h1><p>替代方案使用Alert;(Alert extends Dialog )</p>
+<hr>
+<h1 id="2-报错NullPoint"><a href="#2-报错NullPoint" class="headerlink" title="2. 报错NullPoint"></a>2. 报错NullPoint</h1><pre><code>原则1 ： 检查fxml文件中的控件是否和controller中的对象一一对应；</code></pre><hr>
+<h1 id="3-Dialog无法使用"><a href="#3-Dialog无法使用" class="headerlink" title="3. Dialog无法使用"></a>3. Dialog无法使用</h1><p>替代方案使用Alert;(Alert extends Dialog )</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Alert alert = <span class="keyword">new</span> Alert(Alert.AlertType.ERROR);</span><br><span class="line">alert.setTitle(<span class="string">"Error"</span>);</span><br><span class="line">alert.setHeaderText(<span class="string">"请选择需要删除的Item"</span>);</span><br><span class="line">alert.setContentText(<span class="keyword">null</span>);</span><br><span class="line">alert.showAndWait();</span><br></pre></td></tr></table></figure>
 
 <p><a href="https://blog.csdn.net/u013760453/article/details/78980637" target="_blank" rel="noopener">JavaFX Dialog相关文档</a></p>
