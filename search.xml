@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>SCDM如何移动实体并保证对齐</title>
+    <url>/2020/04/29/SCDM%E5%A6%82%E4%BD%95%E7%A7%BB%E5%8A%A8%E5%AE%9E%E4%BD%93%E5%B9%B6%E4%BF%9D%E8%AF%81%E5%AF%B9%E9%BD%90/</url>
+    <content><![CDATA[<p>依据坐标系进行移动：将需要移动的实体的特征点设定为需要移动的坐标中心，选择需要移动到的终点特征点，确认即可。最后选择两个实体，合并。即得到一个新的对齐的实体。</p>
+<p><img src="https://i.loli.net/2020/04/29/FRwtDmjsJ19aCZY.png" alt="image.png"></p>
+]]></content>
+      <tags>
+        <tag>仿真模拟 SCDM ANSYS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>小米感恩节活动，明信片爬虫</title>
     <url>/2020/03/04/%E5%B0%8F%E7%B1%B3%E6%84%9F%E6%81%A9%E8%8A%82%E6%B4%BB%E5%8A%A8%EF%BC%8C%E6%98%8E%E4%BF%A1%E7%89%87%E7%88%AC%E8%99%AB/</url>
     <content><![CDATA[<p>2019年11月28日，用了几个月的小米9SE，推送了一条消息“小爱 『同学们』的感恩信”，感恩信，第一篇就是唱跳RAP的雷军。</p>
